@@ -1,0 +1,47 @@
+body {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,
+h2,
+p,
+a {
+  font-family: "Carrois Gothic SC", sans-serif;
+  display: block;
+  text-align: center;
+  line-height: 0.8;
+  color: white;
+}
+.contenido {
+  max-width: 1200px;
+  margin: 5rem auto 0 auto;
+  color: white;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.2rem;
+}
+.src {
+  font-size: 1rem;
+}
+
+.hashtag {
+  font-family: Arial, Helvetica, sans-serif;
+}
